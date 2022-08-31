@@ -4,7 +4,7 @@ function checkAandB() {
         b = +prompt('Введите значение b'),
         c,
         d;
-    if (a > 0 & b > 0) {
+     if (a > 0 & b > 0) {
         c = a - b;
         d = 'a - b';
     } else if (a < 0 & b < 0) {
