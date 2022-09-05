@@ -49,7 +49,7 @@ function numberTwo() {
             total += cart[i][6];
         }
         let result = console.log('Общая стоимость корзины ' + total + ' руб');
-        return result;
+        return total;
     }
 }
 //3
