@@ -4,7 +4,7 @@ function checkAandB() {
         b = +prompt('Введите значение b'),
         c,
         d;
-    if (a > 0 & b > 0) {
+    if (a >= 0 & b >= 0) {
         c = a - b;
         d = 'a - b';
     } else if (a < 0 & b < 0) {
@@ -99,17 +99,13 @@ function mathOperationTask() {
     function mathOperation(arg1, arg2, operation) {
         switch (operation) {
             case '+':
-                return summarizeThis(arg1, arg2);;
-                break;
+                return summarizeThis(arg1, arg2);
             case '-':
                 substractThis(arg1, arg2);
-                break;
             case '*':
                 return multiplyThis(arg1, arg2)
-                break;
             case '/':
                 return divideThis(arg1, arg2);
-                break;
             default:
                 return "ERROR!";
         }
